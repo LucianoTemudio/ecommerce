@@ -29,7 +29,6 @@
 .main_nav{
 
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-right: 10px;
 }
@@ -37,9 +36,8 @@
 .main_nav_index{
 
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-left: 150%;
+
 }
 
 
