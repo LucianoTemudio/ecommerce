@@ -1,0 +1,51 @@
+.header_sections{
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div{
+        .logo_style{
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 4rem;
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+        }
+    }
+
+    .main_nav{
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+
+        ul{
+            list-style-type: none;
+            display: flex;
+
+            li{
+                margin: 0.6rem;
+
+                a{
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: bold;
+                    font-size: 0.8rem;
+                    text-decoration: none;
+                    color: white;
+                    transition: 1s;
+
+                    &:hover{
+                        margin: 20%;
+                    }
+
+                }
+            }
+        }
+
+    }
+    
+    .mobile_nav{
+        display: none;
+    }
+}

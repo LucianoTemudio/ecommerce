@@ -1,0 +1,64 @@
+.header_index{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    .main_header{
+        display: flex;
+        justify-content: space-between;
+
+        div{
+            .logo_style{
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                font-size: 4rem;
+                text-decoration: none;
+                color: yellow;
+                margin-left: 10px;
+            }
+        
+        }
+
+        .main_nav_index{
+            display: flex;
+            align-items: center;
+
+            ul{
+                list-style-type: none;
+                display: flex;
+
+                li{
+                    margin: 0.6rem;
+
+                    a{
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: bold;
+                        font-size: 0.8rem;
+                        text-decoration: none;
+                        color: yellow;
+                        transition: 1s;
+
+                        &:hover{
+                            margin: 20%;
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+
+
+    .mobile_nav{
+        display: none;
+    }
+
+
+
+}
+
+
+ 
+ 
+
