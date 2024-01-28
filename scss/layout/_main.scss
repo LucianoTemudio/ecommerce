@@ -1,3 +1,5 @@
+$font_family_variable: Arial;
+
 @mixin font-paragraph($size, $family, $weight){
     font-size: $size;
     font-family: $family;
@@ -77,34 +79,34 @@ main{
         .size_1{
             background-color: grayscale($color: #000000);
             margin: 0%;
-            @include font-paragraph(5rem, Arial, light);
+            @include font-paragraph(5rem, $font_family_variable, light);
         }
         .size_2{
-            @include font-paragraph(4rem, Arial, light);
+            @include font-paragraph(4rem, $font_family_variable, light);
             @extend .size_1
         }
         .size_3{
-            @include font-paragraph(3rem, Arial, light);
+            @include font-paragraph(3rem, $font_family_variable, light);
             @extend .size_1
         }
         .size_4{
-            @include font-paragraph(2.5rem, Arial, light);
+            @include font-paragraph(2.5rem, $font_family_variable, light);
             @extend .size_1
         }
         .size_5{
-            @include font-paragraph(2rem, Arial, light);
+            @include font-paragraph(2rem, $font_family_variable, light);
             @extend .size_1
         }
         .size_6{
-            @include font-paragraph(1.5rem, Arial, light);
+            @include font-paragraph(1.5rem, $font_family_variable, light);
             @extend .size_1
         }
         .size_7{
-            @include font-paragraph(1rem, Arial, light);
+            @include font-paragraph(1rem, $font_family_variable, light);
             @extend .size_1
         }
         .size_8{
-            @include font-paragraph(0.5rem, Arial, light);
+            @include font-paragraph(0.5rem, $font_family_variable, light);
             @extend .size_1
         }
     }
