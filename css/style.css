@@ -1,12 +1,13 @@
 .header_index {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   position: fixed;
+  width: 100%;
 }
 .header_index .main_header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .header_index .main_header div .logo_style {
   font-family: "Roboto", sans-serif;
