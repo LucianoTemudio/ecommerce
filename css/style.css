@@ -43,6 +43,47 @@
   display: none;
 }
 
+.header_sections {
+  background-color: #212529;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_sections div .logo_style {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+.header_sections .main_nav {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.header_sections .main_nav ul {
+  list-style-type: none;
+  display: flex;
+}
+.header_sections .main_nav ul li {
+  margin: 0.6rem;
+}
+.header_sections .main_nav ul li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+.header_sections .main_nav ul li a:hover {
+  margin: 20%;
+}
+.header_sections .mobile_nav {
+  display: none;
+}
+
 @keyframes font-resizing {
   0% {
     color: white;
@@ -166,47 +207,6 @@ main .contenedor {
   margin: 10px;
 }
 
-.header_sections {
-  background-color: #212529;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header_sections div .logo_style {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 4rem;
-  text-decoration: none;
-  color: white;
-  margin-left: 10px;
-}
-.header_sections .main_nav {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-}
-.header_sections .main_nav ul {
-  list-style-type: none;
-  display: flex;
-}
-.header_sections .main_nav ul li {
-  margin: 0.6rem;
-}
-.header_sections .main_nav ul li a {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 0.8rem;
-  text-decoration: none;
-  color: white;
-  transition: 1s;
-}
-.header_sections .main_nav ul li a:hover {
-  margin: 20%;
-}
-.header_sections .mobile_nav {
-  display: none;
-}
-
 @media screen and (max-width: 768px) {
   .header_index .main_header {
     display: none;
@@ -226,7 +226,7 @@ main .contenedor {
   .header_index .mobile_nav nav ul li a:hover {
     margin: 0%;
   }
-  .header_sections div {
+  .header_sections .sections_logo {
     display: none;
   }
   .header_sections .main_nav {
