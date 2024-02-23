@@ -102,6 +102,7 @@
 
         }
 
+
         h1{
             font-family: 'Roboto', sans-serif;
             font-size: 0.7rem;
@@ -155,6 +156,15 @@
 
     }
 
+    footer{
+        font-size: 10px;
+        .footer_1{
+            iframe{
+                height: 300px;
+                width: 150px;
+            }
+        }
 
+    }
 
 }

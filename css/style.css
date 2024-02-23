@@ -206,6 +206,37 @@ main .img_grid p {
 main .contenedor {
   margin: 10px;
 }
+main .contacto {
+  width: 20rem;
+  margin: 10px;
+}
+main .contacto .section_email {
+  display: flex;
+  align-items: center;
+}
+main .contacto .section_email img {
+  width: 15%;
+  margin-right: 10px;
+  padding-bottom: 13px;
+}
+main .contacto .section_whatsapp {
+  display: flex;
+  align-items: center;
+}
+main .contacto .section_whatsapp img {
+  width: 15%;
+  margin-right: 10px;
+  padding-bottom: 13px;
+}
+main .contacto .section_instagram {
+  display: flex;
+  align-items: center;
+}
+main .contacto .section_instagram img {
+  width: 15%;
+  margin-right: 10px;
+  padding-bottom: 13px;
+}
 
 @media screen and (max-width: 768px) {
   .header_index .main_header {
@@ -293,6 +324,57 @@ main .contenedor {
   main .img_grid .img_3_price {
     grid-row: 6/7;
   }
+  footer {
+    font-size: 10px;
+  }
+  footer .footer_1 iframe {
+    height: 300px;
+    width: 150px;
+  }
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+  font-family: Arial;
+  color: white;
+}
+footer .footer_1 {
+  margin: 10px;
+}
+footer .footer_2 {
+  width: 30rem;
+  margin: 10px;
+}
+footer .footer_2 .section_email {
+  display: flex;
+  align-items: center;
+}
+footer .footer_2 .section_email img {
+  width: 15%;
+  margin-right: 10px;
+  padding-bottom: 13px;
+}
+footer .footer_2 .section_whatsapp {
+  display: flex;
+  align-items: center;
+}
+footer .footer_2 .section_whatsapp img {
+  width: 15%;
+  margin-right: 10px;
+  padding-bottom: 13px;
+}
+footer .footer_2 .section_instagram {
+  display: flex;
+  align-items: center;
+}
+footer .footer_2 .section_instagram img {
+  width: 15%;
+  margin-right: 10px;
+  padding-bottom: 13px;
+}
+footer .footer_3 {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

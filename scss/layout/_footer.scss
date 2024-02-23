@@ -1,0 +1,53 @@
+$font_family_variable: Arial;
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    font-family: $font_family_variable;
+    color: white;
+
+    .footer_1{
+        margin: 10px;
+    }
+
+    .footer_2{
+        width: 30rem;
+        margin: 10px;
+
+        .section_email{
+            display: flex;
+            align-items: center;
+            img{
+                width: 15%;
+                margin-right: 10px;
+                padding-bottom: 13px;
+            }
+        }
+
+        .section_whatsapp{
+            display: flex;
+            align-items: center;
+            img{
+                width: 15%;
+                margin-right: 10px;
+                padding-bottom: 13px;
+            }
+        }
+
+        .section_instagram{
+            display: flex;
+            align-items: center;
+            img{
+                width: 15%;
+                margin-right: 10px;
+                padding-bottom: 13px;
+            }
+        }
+    }
+
+    .footer_3{
+        margin: 10px;
+    }
+
+}
